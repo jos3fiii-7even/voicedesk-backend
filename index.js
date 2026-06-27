@@ -119,7 +119,7 @@ Rules:
     const imagePrompt = promptData.content?.[0]?.text?.trim()
 
     // Step 2: Send to Fal.ai for image generation
-    const falRes = await fetch('https://fal.run/fal-ai/flux/schnell', {
+    const falRes = await fetch('https://fal.run/fal-ai/flux-schnell', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
